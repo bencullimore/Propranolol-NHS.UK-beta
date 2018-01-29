@@ -1,0 +1,197 @@
+/*
+Blue: #004b88;
+Green: #00553F;
+ */
+
+.statusmessage {
+    font-family: Arial;
+    fonte: 16px/1.5;
+    color: #970766;
+    font-weight: bold;
+}
+
+.fieldtitles {
+    font-family: Arial;
+    font-size: 16px/1.5;
+    color: #000;
+}
+
+.surveyquestions {
+    font-family: Arial;
+    font-size: 16px/1.5;
+    color: #000;
+    font-weight: bold;
+}
+
+.surveytitle {
+    color: #000000;
+    font-family: Arial;
+    font-size: 1.2em;
+
+}
+
+.bannermessage {
+    font-family: Arial;
+    font-size: 16px/1.5;
+    color: 081765;
+}
+
+.noservicemessage {
+    font-family: Arial;
+    font-size: 16px/1.5;
+    color: 081765;
+}
+
+#SelectedSessionConversation {
+    border-color: #D8D9D8 !important;
+    color: #555555;
+}
+
+#currentsession {
+
+    color: #5555555;
+}
+
+#currentsessionwithnobordercontrol {
+    border-color: #D8D9D8 !important;
+    color: #555555;
+}
+
+input[type="text"], textarea {
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.rounded-corners {
+    background: #fff;
+    behavior: url(border-radius.htc);
+}
+
+/* web chat engage */
+
+body {
+    background: #fff;
+    /*border-top: 3px solid #FFFFFF !important;*/
+
+    font: 16px/1.5 "open_sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    margin: 10px 0 0 0 !important;
+    padding: 0 !important;
+
+    /*padding: 10px !important;*/
+}
+
+body, #currentsession, #Banner, .bannermessage, #Content, #Buttons,
+#SelectedSessionConversation, #ConversationAlerts, #EntryArea,
+#SurveyArea {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto !important;
+    height: auto !important;
+    color: #55555 !important;
+}
+
+#SelectedSessionConversation,
+.bannermessage,
+.noservicemessage,
+.fieldtitles,
+#ConversationAlerts .statusmessage,
+#SurveyArea .bannermessage {
+    color: #000 !important;
+}
+
+.noservicemessage {
+    font-size: 16px/1.5;
+}
+
+textarea[name=requestinfo] {
+    height: 137px !important;
+    font-family: Arial, sans-serif;
+}
+
+.chat {
+    margin-top: 10px !important;
+}
+
+#EntryArea .fieldtitles {
+    display: inline-block !important;
+    margin-bottom: 6px !important;
+}
+
+#ConversationAlerts {
+    margin-top: 10px !important;
+}
+
+#EntryArea {
+    margin-bottom: 15px !important;
+    background: transparent !important;
+}
+
+body #SelectedSessionConversation {
+    height: 128px !important;
+}
+
+#SurveyArea {
+    background: transparent !important;
+}
+
+#SurveyArea select {
+    width: 100%;
+    padding: 3px 2px;
+    border-radius: 3px;
+    color: #444;
+    text-transform: lowercase;
+    margin-top: 7px !important;
+}
+
+#Buttons img {
+    margin-right: 7px !important;
+}
+
+#currentsession .fieldtitles {
+    margin-bottom: 2px !important;
+    font-weight: normal !important;
+}
+
+#currentsession .fieldtitles label {
+    margin: 0 !important;
+    font-size: 16px/1.5 !important;
+    margin-bottom: 3px !important;
+}
+
+#currentsession {
+
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+#currentsession input[type=text], textarea {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+}
+
+/* Hyperlinks */
+
+a {
+    color: #004b88 !important;
+    text-decoration: none !important;
+    word-wrap: break-word !important;
+}
+
+a:hover,
+a:focus,
+a:focus {
+    text-decoration: underline !important;
+}
+
+/* Buttons */
+
+.submit-blue {
+    background: #004b88;
+    color: #fff;
+}

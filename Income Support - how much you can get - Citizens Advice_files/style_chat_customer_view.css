@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#rcornersChatSurvey {
+    border-radius: 25px;
+    border: 6px solid #FFFFFF;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
+}
+
+button,input,optgroup,select,textarea{color:#000;font:inherit;margin:0}
+
+body #SelectedSessionConversation {
+    height: auto !important;
+}
