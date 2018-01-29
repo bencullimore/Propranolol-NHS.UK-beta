@@ -49,59 +49,7 @@ $(document).ready(function () {
 
   }());
 
-  // Open all and close all links for common questions
-  var openCloseAll = (function () {
-
-    $('.c-common-questions').before('<div class="js-opencloseall"><a href="#" aria-hidden="true" class="js-open-all" onclick="Webtrends.multiTrack({ element: this, argsa: [\'DCSext.Anchor\', \'CQ-OpenAll\', \'WT.dl\', \'121\'] });" onkeypress="this.onclick()">Open all</a> <a href="#" aria-hidden="true" class="js-close-all js-openclose-disable" onclick="Webtrends.multiTrack({ element: this, argsa: [\'DCSext.Anchor\', \'CQ-CloseAll\', \'WT.dl\', \'121\'] });" onkeypress="this.onclick()">Close all</a></div>');
-
-    var $openAllLink = $('.js-open-all'),
-        $closeAllLink = $('.js-close-all'),
-        disableLink = 'js-openclose-disable',
-        $elementDetails = $('.c-common-questions__details'),
-        $elementSummary = $('.c-common-questions__summary'),
-        elementDetailsTotal = $elementDetails.length;
-
-    $openAllLink.click(function (e) {
-      e.preventDefault();
-      $closeAllLink.removeClass(disableLink);
-      $(this).addClass(disableLink);
-      $elementDetails.attr('open', '');
-      $elementSummary.attr('aria-expanded', 'true')
-    });
-
-    $closeAllLink.click(function (e) {
-      e.preventDefault();
-      $openAllLink.removeClass(disableLink);
-      $(this).addClass(disableLink);
-      $elementDetails.removeAttr('open');
-      $elementSummary.attr('aria-expanded', 'false')
-    });
-
-    $elementDetails.on('click', function () {
-
-      var detailsOpen = $('.c-common-questions__summary[aria-expanded="true"]').length
-
-      switch (true) {
-
-        case detailsOpen >= 1 && detailsOpen < elementDetailsTotal:
-          $closeAllLink.removeClass(disableLink);
-          $openAllLink.removeClass(disableLink);
-          break;
-        
-        case detailsOpen === 0:
-          $openAllLink.removeClass(disableLink);
-          $closeAllLink.addClass(disableLink);
-          break;
-
-        case detailsOpen === elementDetailsTotal:
-          $openAllLink.addClass(disableLink);
-          $closeAllLink.removeClass(disableLink);
-          break;
-      }
-
-    });
-
-  }());
+ 
 
   // disable links
   // except hydrocortisone internal links, temporarily
