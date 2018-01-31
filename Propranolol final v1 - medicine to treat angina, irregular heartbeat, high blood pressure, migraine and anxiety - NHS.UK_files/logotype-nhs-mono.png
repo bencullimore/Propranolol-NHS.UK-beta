@@ -1,0 +1,351 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="js-enabled">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link href="https://dhrlmnmyf2njb.cloudfront.net/" rel="dns-prefetch">
+    <!--[if IE]><link rel="shortcut icon" href="/static/beta/images/favicon.ico"><![endif]-->
+    <!-- Touch Icons - iOS and Android 2.1+ 180x180 pixels in size. -->
+    <link rel="apple-touch-icon" href="/static/beta/images/apple-touch-icon.png">
+    <!-- Firefox, Chrome, Safari, IE 11+ and Opera. 192x192 pixels in size. -->
+
+    <link rel="icon" href="/static/beta/images/favicon.png">
+    <title> - NHS.UK</title>
+    <meta name="description" content="">
+
+    <meta name="WT.si_n" content="">
+    <meta name="WT.si_p" content="">
+
+    <!-- opengraph -->
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="NHS.UK">
+    <meta property="og:title" content=" - NHS.UK">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:image" content="/static/beta/images/opengraph-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:domain" content="beta.nhs.uk">
+    <meta name="twitter:title" content=" - NHS.UK">
+    <meta name="twitter:description" content="">
+
+    <!-- Google verification -->
+    <meta name="google-site-verification" content="KUvoIgJmNxDkjhrTAtF1kYc0FJuJWdey1AwYzyK1o5Y" />
+
+    
+        
+    
+
+    <link href="/static/shared/css/banner.3be071e5b5a2.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/static/beta/css/expo2017/expo2017.css">
+    <!--[if gt IE 8]><!-->
+        <link href="/static/css/beta.cd90c5b4ee71.css" rel="stylesheet" type="text/css" media="screen" />
+    <!--<![endif]-->
+    <!--[if IE 6]>
+        <link href="/static/css/beta-ie6.b366f67ed914.css" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
+    <!--[if IE 7]>
+        <link href="/static/css/beta-ie7.93bf796e9f31.css" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
+    <!--[if IE 8]>
+        <link href="/static/css/beta-ie8.79ee63615022.css" rel="stylesheet" type="text/css" media="screen" />
+    <![endif]-->
+
+    <link href="/static/css/beta-print.667c02086da0.css" rel="stylesheet" type="text/css" media="print" />
+
+    <!--[if lt IE 9]>
+        <script src="/static/beta/js/ie.bundle.f5ca7cade4a6.js" type="text/javascript"></script>
+        <script src="/static/shared/js/jquery-1.12.4.min.4f252523d4af.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <!--[if gte IE 9]>
+        <script src="/static/shared/js/jquery-3.2.1.09dd64a64ba8.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <!--[if !IE]><!-->
+        <script src="/static/shared/js/jquery-3.2.1.09dd64a64ba8.js" type="text/javascript"></script>
+    <!--<![endif]-->
+
+
+
+    <script async src="/static/beta/js/picturefill.bundle.a8bed7270058.js" type="text/javascript"></script>
+
+    <script>
+        function checkOffset() {
+            if((document.querySelector('#notification-banner-float').getBoundingClientRect().top + document.body.scrollTop) + document.querySelector('#notification-banner-float').offsetHeight >= (document.querySelector('#footer').getBoundingClientRect().top + document.body.scrollTop) - 10)
+            {
+                document.querySelector('#notification-banner-float').style.position = 'relative';
+                document.querySelector('#notification-banner-float').style.bottom = 'inherit';
+            }
+
+
+            if(document.body.scrollTop + window.innerHeight < (document.querySelector('#footer').getBoundingClientRect().top + document.body.scrollTop))
+            {
+                document.querySelector('#notification-banner-float').style.position = 'fixed';
+                document.querySelector('#notification-banner-float').style.bottom = '0';
+            }
+
+        }
+
+        document.addEventListener("scroll", function(){
+            checkOffset();
+        });
+    </script>
+
+    <script>
+    function toggle_pain_scale (e) {
+        if ($(e).hasClass("pain_scale_open")) {
+            $(e).removeClass("pain_scale_open");
+            e.parentElement.querySelector('.pain-scale-table').style.display = 'none';
+        } else {
+            $(e).addClass("pain_scale_open");
+            e.parentElement.querySelector('.pain-scale-table').style.display = 'block';
+        }
+
+    }
+
+    </script>
+
+    <script>
+
+    function treatment_table_toggle (e) {
+
+      if($(e).hasClass("treatment_table_open")) {
+         $(e).removeClass("treatment_table_open");
+         e.parentElement.querySelector('.treatment-table-row-content').style.display = 'none';
+         e.parentElement.querySelector('img.expand-arrow').src = '/static/beta/images/icon-expand-arrow.svg';
+      } else {
+         $(e).addClass("treatment_table_open");
+         e.parentElement.querySelector('.treatment-table-row-content').style.display = 'block';
+         e.parentElement.querySelector('img.expand-arrow').src = '/static/beta/images/icon-close-arrow.svg';
+      }
+    }
+
+    </script>
+
+    <script>
+
+        function graphic_image_toggle(e) {
+           graphic = $(e);
+           img1 = $('img', graphic);
+           if (graphic.hasClass('graphic_image-show')) {
+                    graphic.removeClass("graphic_image-show");
+                    img1.css('opacity', '0.2');
+                    e.querySelector('img').style.filter = 'blur(5px)';
+                    e.querySelector('.hide-image').style.visibility = 'hidden';
+                    e.querySelector('.show-image').style.visibility = 'visible';
+                } else {
+                    graphic.addClass("graphic_image-show");
+                    img1.css('opacity', '1');
+                    e.querySelector('img').style.filter = 'blur(0px)';
+                    e.querySelector('.hide-image').style.visibility = 'visible';
+                    e.querySelector('.show-image').style.visibility = 'hidden';
+                }
+        }
+    </script>
+
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 265857,
+                hjsv: 5
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+
+</head>
+
+<body>
+
+    <div class="skiplinks">
+        <div class="skiplinks__inner">
+            <a href="#content" class="skiplinks__link">Skip to main content</a>
+        </div>
+    </div>
+
+
+
+    <div class="notification-banner notification-banner--js-hidden util-print-hide" id="global-cookies-banner" role="alert">
+        <div class="notification-banner__inner">
+            <div class="close-banner" onclick="document.querySelector('#global-cookies-banner').style.visibility = 'hidden'; document.querySelector('#global-cookies-banner').style.height = '0';">Close <img class="close-icon" src="/static/beta/images/icon-close-blue.svg" alt="Close banner"></div>
+            <div class="notification-banner__inner__wrapper">
+                NHS.UK uses cookies to make the site simpler.
+                <a href="/help/cookies">Find out more about cookies</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <header role="banner">
+        <div class="global-header">
+            <div class="global-header__inner">
+                <a href="/" class="global-header__link">
+                    <img src="/static/beta/images/logotype-nhs-mono.png" alt="NHS">
+                </a>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <main id="content" role="main" tabindex="-1" class="util-nofocus">
+        <noscript>
+          <div id='alertBtn'>
+            <a href='https://www.nhs.uk/pages/NoJsAandE.aspx'>Check here for alerts</a>
+          </div>
+        </noscript>
+        <article role="article">
+            
+            <div class="local-header ">
+                <h1 class="local-header__title">
+    NHS.UK Beta - Page not found
+</h1>
+                
+            </div>
+            
+             <div class="page-section">
+                 <div class="grid-row">
+            
+
+                    <div class="column--two-thirds">
+                        
+                        
+                        
+    <h2>Sorry, this page could not be found.</h2>
+
+                    </div>
+                </div>
+            </div>
+            
+                
+            
+            
+            <section class="page-section">
+                <div class="callout component-muted">
+                    <div class="reading-width">
+                    <h2>Call 111</h2>
+                    <p>If you can’t speak to your GP or don’t know what to do next.</p>
+                    </div>
+                </div>
+            </section>
+            
+            
+        </article>
+    </main>
+
+    
+
+    <footer id="footer" role="contentinfo">
+        <div  class="global-footer">
+            <div class="global-footer__inner">
+
+                <div>
+                    <h2 class="util-visuallyhidden">Support links</h2>
+                    <ul class="link-list">
+                        <li>
+                            <a href="/help/clinical-assurance">Clinical assurance</a>
+                        </li>
+                        <li>
+                            <a href="/help/cookies">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="/static/beta/js/nhsuk.bundle.0a13058c7bad.js" type="text/javascript"></script>
+    <script src="/static/shared/js/jquery.cookie.9cc5987da16a.js" type="text/javascript"></script>
+    <script src="/static/shared/js/banner.213489b1e3ee.js" type="text/javascript"></script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-67365892-5', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+
+    <script>
+        // WebTrends SmartSource Data Collector Tag v10.4.23
+        // Copyright (c) 2016 Webtrends Inc.  All rights reserved.
+        // Tag Builder Version: 4.1.3.5
+        // Created: 2016.01.13
+        window.webtrendsAsyncInit = function () {
+            var dcs = new Webtrends.dcs().init({
+                dcsid: 'dcs222rfg0jh2hpdaqwc2gmki_9r4q',
+                domain: 'statse.webtrendslive.com',
+                timezone: 0,
+                i18n: true,
+                adimpressions: true,
+                adsparam: 'WT.ac',
+                offsite: true,
+                download: true,
+                downloadtypes: 'xls,doc,pdf,txt,csv,zip,docx,xlsx,rar,gzip',
+                onsitedoms: 'nhs.uk',
+                fpcdom: '.nhs.uk',
+                plugins: {
+                    hm: {
+                        src: '//s.webtrends.com/js/webtrends.hm.js'
+                    }
+                }
+            }).track();
+        };
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = "/static/beta/js/webtrends.bundle.js";
+            var s2 = document.getElementsByTagName('script')[0];
+            s2.parentNode.insertBefore(s, s2);
+        }());
+    </script>
+
+    <noscript>
+        <img alt="dcsimg" id="dcsimg" width="1" height="1" src="//statse.webtrendslive.com/dcs222rfg0jh2hpdaqwc2gmki_9r4q/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.4.23&amp;dcssip=.nhs.uk"
+        />
+    </noscript>
+
+
+
+</body>
+
+</html>
