@@ -31,9 +31,58 @@ strong {
 }
 
 
-.c-page-contents__title{display:none;font-size:20px;line-height:32px;}@media(min-width:925px){.c-page-contents__title{display:block;}}.c-page-contents__list{margin-bottom:32px;margin-top:16px;}@media(min-width:641px){.c-page-contents__link{text-decoration:none;}.c-page-contents__link:hover{text-decoration:underline;}.c-page-contents__link:active{text-decoration:underline;}}.js-content-fixed{position:fixed;top:0;}.active{color:#4c92d9 !important;text-decoration:underline;}.tabs{border-bottom:2px solid #ccc;margin-top:16px;max-width:100%;}@media(max-width:640px){.tabs{padding-left:8px;}}.tab__item{display:inline;}@media(min-width:641px){.tab__item{margin-right:16px;}}@media(max-width:640px){.tab__item{margin-right:4px;}}.tab__link{background:#efefef;border:2px solid #ccc;border-bottom:0;display:inline-block;text-decoration:none;}@media(max-width:640px){.tab__link{padding:8px 24px;}}@media(min-width:641px){.tab__link{padding:12px 24px;}}@media(min-width:925px){.tab__link{padding:16px 32px;}}.tab__link:hover{text-decoration:underline;}.tab__link:focus{background:#fff;outline:none;text-decoration:none;}.tab__link--current{background:#fff;font-weight:bold;position:relative;text-decoration:none;top:3px;}.tab__link--current:hover,.tab__link--current:active,.tab__link--current:focus{color:#005eb8;cursor:text;text-decoration:none;}@media(max-width:640px){.c-callout{margin:16px 0;padding:16px;}}@media(min-width:641px){.c-callout{margin:16px 0;padding:16px;}}@media(min-width:925px){.c-callout{margin:32px 0;padding:32px;}}.c-callout__alert{background-color:#fffbcc;background-image:url(https://bencullimore.github.io/Propranolol-NHS.UK-beta/Propranolol_CQTest_files/yellow-exclamation.png);background-position:20px 20px;background-repeat:no-repeat;border:6px solid #ffed00;display:block;padding:30px 20px 30px 85px;}@media(max-width:640px){.c-callout__alert{padding:85px 18px 18px 18px;}}.c-callout__info{background-image:url(https://bencullimore.github.io/Propranolol-NHS.UK-beta/Propranolol_CQTest_files/blue-info.png);background-position:20px 20px;background-repeat:no-repeat;border:6px solid #0065b6;display:block;margin:40px 0;padding:30px 20px 30px 85px;}@media(max-width:640px){.c-callout__info{padding:85px 18px 18px 18px;}}.c-callout__emergency{background-color:#fbe8e6;background-image:url(https://bencullimore.github.io/Propranolol-NHS.UK-beta/Propranolol_CQTest_files/red-exclamation.png);background-position:20px 20px;background-repeat:no-repeat;border:6px solid #d81e05;display:block;margin:40px 0;padding:30px 20px 30px 85px;}@media(max-width:640px){.c-callout__emergency{padding:85px 18px 18px 18px;}}.c-callout--warning{background-color:#fdf2d5;border:solid #fada8b;border-width:4px 0;}.c-callout--information{background-color:#f0f4f5;border:solid #768692;border-width:0 0 0 4px;}.c-callout--attention{border:8px solid #0072ce;}.c-callout--severe{background-color:#da291c;color:#fff;}.c-callout--alert{background-color:#f5e6e4;border-top:8px solid #da291c;}.c-common-questions{background:#f1f7fc;padding:8px 16px;}.c-common-questions__summary{display:block;}.c-common-questions__summary[aria-expanded="true"] h3::after{content:"- ";right:13px;}.c-common-questions__summary::-webkit-details-marker{display:none;}.c-common-questions__summary .details__arrow{display:none;}.c-common-questions__header{font-size:20px;border-top:1px solid #ccc;font-weight:normal;margin-top:0;padding:8px 38px 8px 0;}
+.c-page-contents__title{display:none;font-size:20px;line-height:32px;}@media(min-width:925px){.c-page-contents__title{display:block;}}.c-page-contents__list{margin-bottom:32px;margin-top:16px;}@media(min-width:641px){.c-page-contents__link{text-decoration:none;}.c-page-contents__link:hover{text-decoration:underline;}.c-page-contents__link:active{text-decoration:underline;}}.js-content-fixed{position:fixed;top:0;}.active{color:#4c92d9 !important;text-decoration:underline;}.tabs{border-bottom:2px solid #ccc;margin-top:16px;max-width:100%;}@media(max-width:640px){.tabs{padding-left:8px;}}.tab__item{display:inline;}@media(min-width:641px){.tab__item{margin-right:16px;}}@media(max-width:640px){.tab__item{margin-right:4px;}}.tab__link{background:#efefef;border:2px solid #ccc;border-bottom:0;display:inline-block;text-decoration:none;}@media(max-width:640px){.tab__link{padding:8px 24px;}}@media(min-width:641px){.tab__link{padding:12px 24px;}}@media(min-width:925px){.tab__link{padding:16px 32px;}}.tab__link:hover{text-decoration:underline;}.tab__link:focus{background:#fff;outline:none;text-decoration:none;}.tab__link--current{background:#fff;font-weight:bold;position:relative;text-decoration:none;top:3px;}.tab__link--current:hover,.tab__link--current:active,.tab__link--current:focus{color:#005eb8;cursor:text;text-decoration:none;}@media(max-width:640px){.c-callout{margin:16px 0;padding:16px;}}@media(min-width:641px){.c-callout{margin:16px 0;padding:16px;}}@media(min-width:925px){.c-callout{margin:32px 0;padding:32px;}}.c-callout__alert{background-color:#fffbcc;background-image:url(https://bencullimore.github.io/Propranolol-NHS.UK-beta/Propranolol_CQTest_files/yellow-exclamation.png);background-position:20px 20px;background-repeat:no-repeat;border:6px solid #ffed00;display:block;padding:30px 20px 30px 85px;}@media(max-width:640px){.c-callout__alert{padding:85px 18px 18px 18px;}}.c-callout__info{background-image:url(https://bencullimore.github.io/Propranolol-NHS.UK-beta/Propranolol_CQTest_files/blue-info.png);background-position:20px 20px;background-repeat:no-repeat;border:6px solid #0065b6;display:block;margin:40px 0;padding:30px 20px 30px 85px;}@media(max-width:640px){.c-callout__info{padding:85px 18px 18px 18px;}}.c-callout__emergency{background-color:#fbe8e6;background-image:url(https://bencullimore.github.io/Propranolol-NHS.UK-beta/Propranolol_CQTest_files/red-exclamation.png);background-position:20px 20px;background-repeat:no-repeat;border:6px solid #d81e05;display:block;margin:40px 0;padding:30px 20px 30px 85px;}@media(max-width:640px){.c-callout__emergency{padding:85px 18px 18px 18px;}}.c-callout--warning{background-color:#fdf2d5;border:solid #fada8b;border-width:4px 0;}.c-callout--information{background-color:#f0f4f5;border:solid #768692;border-width:0 0 0 4px;}.c-callout--attention{border:8px solid #0072ce;}.c-callout--severe{background-color:#da291c;color:#fff;}.c-callout--alert{background-color:#f5e6e4;border-top:8px solid #da291c;}.c-common-questions{background:#f1f7fc;padding:8px 16px;}.c-common-questions__summary{display:block;}
 
-.c-common-questions__header::after{content:"+ ";font-size:35px;position:absolute;right:10px;top:7px;color:#005eb8;}
+
+
+
+.c-common-questions__summary[aria-expanded="true"] h3::after{content:"\203A";right:13px;	-webkit-transform: rotate(-90deg);}.c-common-questions__summary::-webkit-details-marker{display:none;}.c-common-questions__summary .details__arrow{display:none;}
+
+
+
+
+.c-common-questions__header{
+	
+	
+	font-size:19px;
+	line-height: 1.6;
+	
+	border-top:1px solid #ccc;font-weight:normal;margin-top:0;padding:18px 8px 18px 48px;
+    font-weight: 400;
+
+}
+
+
+
+
+.c-common-questions__header::after{
+	
+	content:"\203A";
+	font-size:35px;
+	position:absolute;
+		line-height: 0.9;
+	left:5px;
+	top:15px;
+	color:#fff;
+	color:#fff;
+	background: #005eb8;
+    border-radius: 18px;    
+	height: 36px;
+    width: 36px;max-height: 36px;
+    max-width: 36px;
+	text-align: center;
+    position: absolute;
+    left: 0;
+    font-size: 36px;
+    font-weight: 300;
+	display: inline-block;
+	-webkit-transform: rotate(90deg);
+}
+
+
+
+
+
 
 .c-common-questions__details{margin-top:0;}.c-common-questions__details:first-child .c-common-questions__header{border-top:0;}.c-common-questions__content{margin-bottom:16px;margin-top:8px;}.c-common-questions .gallery__item{border-right:0;}.c-common-questions .gallery__item .media__caption{background:#fff;}
 
@@ -58,4 +107,4 @@ strong {
 .o-list-sections>li{display:block;}
 .o-list-sections>li:before{content:counter(item) ". ";counter-increment:item;width:0;display:inline-block;}
 .o-list-sections__item{font-size:1.5rem;font-weight:600;margin-top:48px !important;}@media(min-width:641px){
-	.o-list-sections__item{font-size:; }}@media(min-width:925px){.o-list-sections__item{font-size:1.5rem;margin-top:80px !important;}}.o-list-sections__item--first{margin-top:8px !important;}.o-list-sections__item:nth-child(n+10) .o-section__header{margin-left:2em;}.o-list-sections__section{font-size:;}@media(max-width:640px){.o-list-sections__section{margin-top:-2.2em;}}@media(min-width:641px){.o-list-sections__section{margin-top:-2.45em;}}.u-position-relative{position:relative;}.list-child{margin-left:32px;text-indent:-8px;}.list-child:before{content:"- ";text-indent:-8px;}.sublevel.level-4{display:none;}
+	.o-list-sections__item{font-size:; }}@media(min-width:925px){.o-list-sections__item{font-size:1.5rem;margin-top:80px !important;}}.o-list-sections__item--first{margin-top:8px !important;}.o-list-sections__item:nth-child(n+10) .o-section__header{margin-left:2em;}.o-list-sections__section{font-size:;}@media(max-width:640px){.o-list-sections__section{margin-top:-2.2em;}}@media(min-width:641px){.o-list-sections__section{margin-top:-2.45em;}}.u-position-relative{position:relative;}.list-child{margin-left:32px;text-indent:-8px;}.list-child:before{content:"/203A ";text-indent:-8px;}.sublevel.level-4{display:none;}
