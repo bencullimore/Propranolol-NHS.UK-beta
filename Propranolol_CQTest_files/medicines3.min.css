@@ -36,7 +36,7 @@ strong {
 
 
 
-.c-common-questions__summary[aria-expanded="true"] h3::after{content:"\203A";right:13px;	-webkit-transform: rotate(-90deg);}.c-common-questions__summary::-webkit-details-marker{display:none;}.c-common-questions__summary .details__arrow{display:none;}
+.c-common-questions__summary[aria-expanded="true"] h3::after{content:"\203A";right:13px;	-webkit-transform: rotate(-90deg);background:#005eb8;color:#fff;}.c-common-questions__summary::-webkit-details-marker{display:none;}.c-common-questions__summary .details__arrow{display:none;}
 
 
 
@@ -60,7 +60,7 @@ strong {
 	content:"\203A";
 	font-size:35px;
 	position:absolute;
-		line-height: 0.68;
+		line-height: 0.9;
 
 	left:5px;
 	top:13px;
